@@ -1,0 +1,6 @@
+services:
+  c_land:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    tty: true
